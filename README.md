@@ -72,7 +72,7 @@ To create a new user and address, send a `POST` request to the `/api/submit` end
 
    ### Project Screenshot
 
-![User Address Backend Screenshot](https://github.com/ThatRandomGuy09/Smoke-Trees-Assignment)/user-address-backend/main/images/User getting stored.png)
+![User Address Backend Screenshot](https://github.com/ThatRandomGuy09/Smoke-Trees-Assignment/user-address-backend/main/images/User getting stored.png)
 
 
  **Follow the installation instructions** to set up the project locally.
