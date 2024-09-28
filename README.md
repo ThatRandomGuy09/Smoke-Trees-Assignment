@@ -70,16 +70,7 @@ To create a new user and address, send a `POST` request to the `/api/submit` end
    git clone https://github.com/yourusername/user-address-backend.git
    ```
 
-3. **Follow the installation instructions** to set up the project locally.
-
-### Adding an Image
-
-
-
-```markdown
-![Alt text](images/![Screenshot (156)](https://github.com/user-attachments/assets/0172e031-e71b-4977-bed8-c8c8b61ce4f9)
-.png)
-```
+ **Follow the installation instructions** to set up the project locally.
 
 ### License
 
