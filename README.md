@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# User Address Backend
+
+This is a simple backend application built using **Next.js** and **Prisma** for managing user addresses.
+
+## Features
+
+- Create new users with associated addresses.
+- RESTful API endpoint for adding users and addresses.
+- Built-in error handling and validation.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js (>= 14.x)
+- PostgreSQL (or your preferred database)
+- Prisma
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/user-address-backend.git
+   cd user-address-backend
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Set up your database:**
+
+   - Update your `.env` file with your database connection string.
+
+4. **Run Prisma migrations:**
+
+   ```bash
+   npx prisma migrate dev
+   ```
+
+5. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+   Your API will be running on [http://localhost:3000/api/submit](http://localhost:3000/api/submit).
+
+### Usage
+
+To create a new user and address, send a `POST` request to the `/api/submit` endpoint with the following JSON body:
+
+```json
+{
+  "name": "Vansh Vasishtha",
+  "Address": "Thanisandra, Bengaluru"
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Forking the Repository
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Fork the repository:** Click on the "Fork" button at the top right of this page.
+2. **Clone your forked repository:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   git clone https://github.com/yourusername/user-address-backend.git
+   ```
 
-## Learn More
+3. **Follow the installation instructions** to set up the project locally.
 
-To learn more about Next.js, take a look at the following resources:
+### Adding an Image
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+```markdown
+![Alt text](images/![Screenshot (156)](https://github.com/user-attachments/assets/0172e031-e71b-4977-bed8-c8c8b61ce4f9)
+.png)
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
